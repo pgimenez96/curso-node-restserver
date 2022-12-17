@@ -5,7 +5,7 @@ class Server {
 
     constructor() {
         // Instancia de express
-        this.port = process.env.PORT;
+        this.port = process.env.PORT || 3000;
         this.app = express();
         this.userPath = '/api/usuarios';
 
