@@ -1,7 +1,7 @@
 const { request, response } = require("express");
 const { ObjectId } = require('mongoose').Types;
 
-const { Usuario, Categoria, Producto, Producto } = require('../models');
+const { Usuario, Categoria, Producto } = require('../models');
 const usuario = require("../models/usuario");
 
 const coleccionesPermitidas = [
